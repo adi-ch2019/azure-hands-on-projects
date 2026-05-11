@@ -1,4 +1,4 @@
-# Use "az group create" to create rg
+# Use "az group create" to create rg 
 az group create `
 --name test-rg1 `
 --location southindia
