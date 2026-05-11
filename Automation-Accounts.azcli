@@ -5,7 +5,7 @@ varValueTenantID=''
 varNameVnet='Vnet'
 varValueVnet=''
 varNameNSG='nsg'
-varValueNSG=''
+varValueNSG='' 
 
 # Create an Automation Account: Run the following command to create an Automation Account:
 az automation account create --name <account_name> `
