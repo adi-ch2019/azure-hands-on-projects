@@ -7,3 +7,9 @@
 | MindMap | Azure |
 |---------|----------------|
 | ![MindMap](/automation-runbooks-eventGrid-storage/misc/whiteboard-mindmap.jpg) | ![Infrastructure](/automation-runbooks-eventGrid-storage/misc/Azure-Representation.jpg) |
+
+### Cloud-Native Resource Management System [(CODE)](/adf-asql-redis-terraform-cicd/) [(README)](/adf-asql-redis-terraform-cicd/README.md)
+
+| Azure Infra | Terraform |
+|---------|----------------|
+| ![Infrastructure](/adf-asql-redis-terraform-cicd/misc/InfraAsCode.png) | ![Terraform-screen](/adf-asql-redis-terraform-cicd/misc/terraform.png) |
