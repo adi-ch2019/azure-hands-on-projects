@@ -8,8 +8,8 @@
 |---------|----------------|
 | ![MindMap](/automation-runbooks-eventGrid-storage/misc/whiteboard-mindmap.jpg) | ![Infrastructure](/automation-runbooks-eventGrid-storage/misc/Azure-Representation.jpg) |
 
-### JARVIS Suit Brain - Cloud-Native Suit Management System [(CODE)](/adf-asql-redis-terraform-cicd/) [(README)](/adf-asql-redis-terraform-cicd/README.md)
+### Cloud-Native Resource Management System [(CODE)](/adf-asql-redis-terraform-cicd/) [(README)](/adf-asql-redis-terraform-cicd/README.md)
 
-| MindMap | Azure Infra | Terraform |
+| Azure Infra | Terraform |
 |---------|----------------|
-| ![MindMap]() | ![Infrastructure](/adf-asql-redis-terraform-cicd/misc/InfraAsCode.png) | ![Terraform-screen](/adf-asql-redis-terraform-cicd/misc/terraform.png) |
+| ![Infrastructure](/adf-asql-redis-terraform-cicd/misc/InfraAsCode.png) | ![Terraform-screen](/adf-asql-redis-terraform-cicd/misc/terraform.png) |
