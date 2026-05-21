@@ -1,8 +1,6 @@
 # 🦾 JARVIS Suit Brain - Cloud-Native Suit Management System
 
-[![JARVIS Auto-Deploy](https://github.com/YOUR_USERNAME/jarvis-suit-brain/actions/workflows/jarvis-deploy.yml/badge.svg)](https://github.com/YOUR_USERNAME/jarvis-suit-brain/actions/workflows/jarvis-deploy.yml)
-
-## 🎯 What This Demonstrates (AZ-400)
+## 🎯 What This Demonstrates
 
 ✅ **Backing Services (12-Factor App)**
 
@@ -22,5 +20,3 @@
 - Background workers
 - Distributed caching patterns
 - Message-driven architecture
-
-## 🚀 Architecture
