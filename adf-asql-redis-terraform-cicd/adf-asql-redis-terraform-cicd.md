@@ -4,7 +4,7 @@
 
 ✅ **Backing Services (12-Factor App)**
 
-- Azure SQL (persistent suit telemetry
+- Azure SQL (persistent suit telemetry)
 - Azure Redis Cache (real-time suit status)
 - Azure Service Bus (async JARVIS coordination)
 

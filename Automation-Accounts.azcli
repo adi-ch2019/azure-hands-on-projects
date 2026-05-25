@@ -1,0 +1,27 @@
+varNameStorageAccount='StorageAccount'
+varValueStorageAccount=''
+varNameTenantID='TenantID'
+varValueTenantID=''
+varNameVnet='Vnet'
+varValueVnet=''
+varNameNSG='nsg'
+varValueNSG=''
+
+# Create an Automation Account: Run the following command to create an Automation Account:
+az automation account create --name <account_name> `
+--resource-group <resource_group_name> --location <location>
+
+# Create predefined variables: After creating the Automation Account,
+#  you can set predefined variables by running the following command
+az automation variable create --automation-account-name <account_name> `
+--name <variable_name> --value <variable_value> --resource-group <resource_group_name>
+
+# Import the module: Run the following command to import the module to your Automation account
+az automation module create --resource-group <resource_group_name> `
+--automation-account <automation_account_name> --path <path_to_module> --name <module_name>
+
+az automation module create --resource-group myResourceGroup `
+--automation-account myAutomationAccount --path ./myModule.zip --name MyModule
+
+
+
