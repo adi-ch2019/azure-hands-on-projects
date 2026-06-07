@@ -1,4 +1,4 @@
-# Azure Projects Portfolio
+# Azure Projects Learning
 
 ## CI/CD, IaC, GitOps, Azure Infrastructure Services - Landing Zone
 
