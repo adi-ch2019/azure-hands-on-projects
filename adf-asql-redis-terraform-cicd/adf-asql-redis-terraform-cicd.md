@@ -20,3 +20,25 @@
 - Background workers
 - Distributed caching patterns
 - Message-driven architecture
+
+┌─────────────────────────────────────────────────────────────┐
+│  AZURE SUBSCRIPTION │
+├─────────────────────────────────────────────────────────────┤
+│  Service Principal (from AZURE_CREDENTIALS) has:           │
+│  ✅ Contributor access to ENTIRE subscription              │
+│  ✅ Can create resource groups ANYWHERE                    │
+│  ✅ Can create resources in ANY resource group             │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │ Resource Group: rg-jarvis-abc123 (created by TF)   │   │
+│  │ ✅ SQL Database                                     │   │
+│  │ ✅ Redis Cache                                      │   │
+│  │ ✅ Service Bus                                      │   │
+│  │ ✅ App Service                                      │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │ Resource Group: rg-jarvis-def456 (another deploy)  │   │
+│  │ ✅ New set of resources                            │   │
+│  └─────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────┘
