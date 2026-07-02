@@ -1,17 +1,18 @@
 using Jarvis.SuitWorker.Workers;
 
 var builder = Host.CreateApplicationBuilder(args);
-
-// Add JARVIS coordinator as background service
 builder.Services.AddHostedService<JarvisCoordinator>();
-
-// Add health checks
 builder.Services.AddHealthChecks();
 
 var host = builder.Build();
 
-// Log startup
-var logger = host.Services.GetRequiredService<ILogger<Program>>();
-logger.LogInformation("🦾 JARVIS Suit Worker starting up...");
+Console.WriteLine("""
+╔═══════════════════════════════════════════════════════════╗
+║  🦾 JARVIS Suit Worker v1.0                             ║
+║  Status: ONLINE                                         ║
+║  Backing Services: Service Bus Consumer                 ║
+║  "I'm always watching, sir"                             ║
+╚═══════════════════════════════════════════════════════════╝
+""");
 
-host.Run();
+await host.RunAsync();
