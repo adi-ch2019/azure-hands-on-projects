@@ -1,2 +1,7 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Gotham.CrimeAPI/Gotham.CrimeAPI.csproj" />
+    <Project Path="src/Gotham.Orchestrator/Gotham.Orchestrator.csproj" />
+    <Project Path="src/Gotham.Shared/Gotham.Shared.csproj" />
+  </Folder>
 </Solution>
